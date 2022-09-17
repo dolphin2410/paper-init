@@ -1,0 +1,11 @@
+.idea/
+.gradle/
+.server/
+
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+src/main/resources/plugin.yml
+# Project exclude paths
+/build/
+/buildSrc/build/
