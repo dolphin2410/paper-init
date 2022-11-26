@@ -50,7 +50,7 @@ tasks {
             |main: io.github.dytroc.${rootProject.packageName}.${rootProject.pluginName}Plugin
             |api-version: ${Dependency.Paper.Version.split(".").take(2).joinToString(".")}
             |libraries:
-            ${Dependency.Libraries.libraries.joinToString("\n") { library -> "|  - ${library.group}:${library.api}:${library.version}" }}
+            ${Dependency.Libraries.libraries.joinToString("\n") { library -> "|  - ${library.group}:${library.core}:${library.version}" }}
         """.trimMargin())
 
 

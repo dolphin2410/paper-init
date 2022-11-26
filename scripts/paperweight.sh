@@ -37,7 +37,7 @@ dependencies {
     paperDevBundle("\${Dependency.Paper.Version}-R0.1-SNAPSHOT")
 
     Dependency.Libraries.libraries.forEach { library ->
-        compileOnly("\${library.group}:\${library.api}:\${library.version}")
+        compileOnly("\${library.group}:\${library.core}:\${library.version}")
     }
 }
 
