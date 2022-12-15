@@ -2,7 +2,10 @@
 
 A CLI wrapper for [dytroc/paper-sample](https://github.com/dytroc/paper-sample)
 
-### 1. Download Binary from [Releases](https://github.com/dolphin2410/paper-init/releases/)
+### 1-1. Download Binary from [Releases](https://github.com/dolphin2410/paper-init/releases/)
+### 1-2. Compile From Source
+1. `git clone https://github.com/dolphin2410/paper-init`
+2. `cargo install --path .`
 
 ### 2. Set Project Name
 This creates a new folder, or initializes in the current directory if set to '`.`' 
