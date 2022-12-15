@@ -301,7 +301,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "paper-creator"
+name = "paper-init"
 version = "0.1.0"
 dependencies = [
  "colored",
