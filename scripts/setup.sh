@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-root_project_name=$(basename $(dirname $PWD))
-cd ../
+root_project_name=$1
 
 cat << EOF > settings.gradle.kts
 rootProject.name = "$root_project_name"

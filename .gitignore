@@ -9,3 +9,7 @@ src/main/resources/plugin.yml
 # Project exclude paths
 /build/
 /buildSrc/build/
+
+# Added by cargo
+
+/target
